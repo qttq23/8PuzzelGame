@@ -1,0 +1,23 @@
+﻿<Window x:Class="_8PuzzelGame.OptionsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_8PuzzelGame"
+        mc:Ignorable="d"
+        Title="OptionsWindow" Height="450" Width="310">
+    <Grid>
+        <GroupBox Header="Rows and Columns" Margin="0,0,0,298">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Rows = Columns = (from 2 to 20)" Margin="0,0,5,68"></TextBlock>
+                <TextBox Name="RowsOptionTextBlock" Width="32" Margin="0,0,0,68"></TextBox>
+
+            </StackPanel>
+
+        </GroupBox>
+
+        <Button Name="OkButton" Content="OK"
+                VerticalAlignment="Bottom" HorizontalAlignment="Right" Height="28" Width="104"
+                Click="OkButton_Click"></Button>
+    </Grid>
+</Window>

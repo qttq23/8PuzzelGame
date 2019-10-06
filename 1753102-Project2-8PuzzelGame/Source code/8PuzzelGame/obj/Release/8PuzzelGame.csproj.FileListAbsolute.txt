@@ -1,0 +1,47 @@
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\bin\Release\8PuzzelGame.exe.config
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\bin\Release\8PuzzelGame.exe
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\bin\Release\8PuzzelGame.pdb
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Release\8PuzzelGame.csprojAssemblyReference.cache
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Release\MainWindow.g.cs
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Release\App.g.cs
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Release\8PuzzelGame_MarkupCompile.cache
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Release\8PuzzelGame_MarkupCompile.lref
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Release\MainWindow.baml
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Release\8PuzzelGame.g.resources
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Release\_8PuzzelGame.Properties.Resources.resources
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Release\8PuzzelGame.csproj.GenerateResource.cache
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Release\8PuzzelGame.csproj.CoreCompileInputs.cache
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Release\8PuzzelGame.exe
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Release\8PuzzelGame.pdb
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-8PuzzelGame\Source code\8PuzzelGame\bin\Release\8PuzzelGame.exe.config
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-8PuzzelGame\Source code\8PuzzelGame\bin\Release\8PuzzelGame.exe
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-8PuzzelGame\Source code\8PuzzelGame\bin\Release\8PuzzelGame.pdb
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame.csprojAssemblyReference.cache
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-8PuzzelGame\Source code\8PuzzelGame\obj\Release\MainWindow.g.cs
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-8PuzzelGame\Source code\8PuzzelGame\obj\Release\App.g.cs
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame_MarkupCompile.cache
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame_MarkupCompile.lref
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-8PuzzelGame\Source code\8PuzzelGame\obj\Release\MainWindow.baml
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame.g.resources
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-8PuzzelGame\Source code\8PuzzelGame\obj\Release\_8PuzzelGame.Properties.Resources.resources
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame.csproj.GenerateResource.cache
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame.csproj.CoreCompileInputs.cache
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame.exe
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame.pdb
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\bin\Release\8PuzzelGame.exe.config
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\bin\Release\8PuzzelGame.exe
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\bin\Release\8PuzzelGame.pdb
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame.csprojAssemblyReference.cache
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\obj\Release\MainWindow.g.cs
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\obj\Release\App.g.cs
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame_MarkupCompile.cache
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame_MarkupCompile.lref
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\obj\Release\MainWindow.baml
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame.g.resources
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\obj\Release\_8PuzzelGame.Properties.Resources.resources
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame.csproj.GenerateResource.cache
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame.csproj.CoreCompileInputs.cache
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame.exe
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\obj\Release\8PuzzelGame.pdb
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\obj\Release\OptionsWindow.g.cs
+C:\Users\khacv\Desktop\WP.Project2-8Puzzels\1753102-Project2-8PuzzelGame\Source code\8PuzzelGame\obj\Release\OptionsWindow.baml

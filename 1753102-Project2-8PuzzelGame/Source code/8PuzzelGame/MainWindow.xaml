@@ -1,0 +1,214 @@
+﻿<Window x:Class="_8PuzzelGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_8PuzzelGame"
+        mc:Ignorable="d"
+        Title="8-Puzzel Game" Height="450" Width="800" Closing="Window_Closing"
+        Loaded="MainWindow_Loaded"
+       >
+
+
+
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top" Margin="0,0,0,10">
+                <MenuItem Header="Load" Click="LoadMenu_Click"></MenuItem>
+                <MenuItem Header="Save" Click="SaveMenu_Click"></MenuItem>
+                <MenuItem Header="Options" Click="OptionsMenu_Click"></MenuItem>
+                <MenuItem Header="Help" Click="HelpMenu_Click"></MenuItem>
+            </Menu>
+
+            <Grid DockPanel.Dock="Left" Background="AliceBlue" 
+                  Width="150" Margin="0,0,10,0">
+
+                <DockPanel>
+                    <Button Name="BrowseButton" Content="Browse..."
+                            DockPanel.Dock="Bottom"
+                            HorizontalAlignment="Right"
+                            Click="BrowseButton_Click"></Button>
+
+
+                    <ListView Name="ImageListView" DockPanel.Dock="Top" 
+                              ScrollViewer.VerticalScrollBarVisibility="Visible"
+                              ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                              PreviewMouseLeftButtonUp="ImageListView_Click"
+                              >
+
+
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding }" 
+                                       Stretch="Fill" RenderOptions.BitmapScalingMode="HighQuality"></Image>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+
+                </DockPanel>
+
+
+            </Grid>
+
+
+            <Grid Name="GameGrid" DockPanel.Dock="Right" 
+                  Background="LightGray"
+                  MouseMove="DirectionGrid_MouseMove"
+                  MouseLeftButtonUp="DirectionGrid_MouseUp">
+
+                <Grid Name="DirectionGrid" VerticalAlignment="Bottom" HorizontalAlignment="Right" Background="Transparent"
+                      MouseLeftButtonDown="DirectionGrid_MouseDown"
+                      >
+                    <StackPanel Orientation="Vertical">
+
+                        <Button Width="40" Height="40" Margin="0,10,0,0"
+                                Click="DirectionButton_Click" Background="Transparent" BorderThickness="0"
+                                Tag="Up">
+                            <Image Source="{Binding UpDirectionIcon[0]}"
+                                   RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Button >
+                        
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+
+                            <Button Width="40" Height="40"  Margin="0,0,40,0" 
+                                    Background="Transparent" BorderThickness="0"
+                                    Click="DirectionButton_Click"
+                                    Tag="Left">
+
+                                <Image Source="{Binding LeftDirectionIcon[0]}"
+                                   RenderOptions.BitmapScalingMode="HighQuality"/>
+                            </Button>
+
+                            <Button Width="40" Height="40" 
+                                    Background="Transparent" BorderThickness="0"
+                                     Click="DirectionButton_Click"
+                                    Tag="Right">
+
+                                <Image Source="{Binding RightDirectionIcon[0]}"
+                                   RenderOptions.BitmapScalingMode="HighQuality"/>
+                            </Button>
+                        </StackPanel>
+
+                        <Button Width="40" Height="40" 
+                                Background="Transparent" BorderThickness="0"
+                                Click="DirectionButton_Click"
+                                Tag="Down">
+
+                            <Image Source="{Binding DownDirectionIcon[0]}"
+                                   RenderOptions.BitmapScalingMode="HighQuality"/>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+
+                <DockPanel>
+                    <TextBlock DockPanel.Dock="Right"
+                               Name="TimerTextBlock"
+                               Text="Timer 0:00" FontSize="25" TextWrapping="Wrap" 
+                               HorizontalAlignment="Right" Margin="0,0,0,312" Width="84"></TextBlock>
+
+
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+
+                        <ListView Name="BoardListView"
+                          Width="300" Height="300"
+                          BorderThickness="0"
+                          VerticalAlignment="Center"
+                          ScrollViewer.HorizontalScrollBarVisibility="Disabled" 
+                          ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                          Background="Transparent"
+                  
+                          PreviewMouseMove="BoardListView_MouseMove"
+                          PreviewMouseLeftButtonUp="BoardListView_MouseUp"
+                          MouseEnter="BoardListview_MouseEnter"
+                          MouseLeave="BoardListView_MouseLeave"
+                                >
+
+                            <ListView.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <UniformGrid Rows="{Binding Row.Value}" Columns="{Binding Column.Value}"
+                                    >
+                                    </UniformGrid>
+                                </ItemsPanelTemplate>
+
+                            </ListView.ItemsPanel>
+
+
+
+
+                            <ListView.ItemContainerStyle>
+                                <Style TargetType="ListViewItem">
+
+                                    <EventSetter Event="PreviewMouseLeftButtonDown"
+                                                 Handler="BoardListView_MouseDown"/>
+
+                                    <EventSetter Event="PreviewMouseMove"
+                                                 Handler="BoardListViewItem_MouseMove"/>
+
+
+                                    <Setter Property="BorderThickness" Value="0,0,0,5"/>
+
+
+                                    <!--<Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="{x:Type ListViewItem}">
+                                                <Border x:Name="Bd" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="true">
+                                                    <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                                </Border>
+                                                
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    
+                                    
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="Transparent"/>
+                                        </Trigger>
+                                    </Style.Triggers>-->
+
+
+                                </Style>
+
+
+
+                            </ListView.ItemContainerStyle>
+
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+
+                                    <Image Source="{Binding Value, 
+                                        Converter={x:Static local:IntValueToImageNameConverter.Instance}}"
+                                        Stretch="Fill"
+                                        RenderOptions.BitmapScalingMode="HighQuality"
+                                    />
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+
+                        </ListView>
+
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,10,0,0">
+                            <Button Name="ShuffleButton" Content="Shuffle"
+                                Width="80" Height="40" Margin="0,0,10,0"
+                                    Click="ShuffleButton_Click"
+                                    Background="AliceBlue"></Button>
+
+                            <Button Name="PlayButton" Content="Play"
+                                Width="80" Height="40" Margin="0,0,10,0"
+                                    Click="PlayGameButton_Click"
+                                    Background="AliceBlue"></Button>
+                        </StackPanel>
+                    </StackPanel>
+                </DockPanel>
+
+
+
+
+
+
+
+
+            </Grid>
+        </DockPanel>
+    </Grid>
+</Window>

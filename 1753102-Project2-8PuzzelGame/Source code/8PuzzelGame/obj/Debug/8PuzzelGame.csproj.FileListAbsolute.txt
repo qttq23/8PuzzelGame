@@ -1,0 +1,15 @@
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\bin\Debug\8PuzzelGame.exe.config
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\bin\Debug\8PuzzelGame.exe
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\bin\Debug\8PuzzelGame.pdb
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Debug\MainWindow.g.cs
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Debug\App.g.cs
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Debug\8PuzzelGame_MarkupCompile.cache
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Debug\8PuzzelGame_MarkupCompile.lref
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Debug\MainWindow.baml
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Debug\8PuzzelGame.g.resources
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Debug\_8PuzzelGame.Properties.Resources.resources
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Debug\8PuzzelGame.csproj.GenerateResource.cache
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Debug\8PuzzelGame.csproj.CoreCompileInputs.cache
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Debug\8PuzzelGame.exe
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Debug\8PuzzelGame.pdb
+C:\Users\khacv\source\repos\WpfApp1\8PuzzelGame\obj\Debug\8PuzzelGame.csprojAssemblyReference.cache
